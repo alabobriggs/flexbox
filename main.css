@@ -1,0 +1,99 @@
+
+.c {
+    display: flex;
+    background: lightpink;
+}
+.c2 {
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+.c3 {
+    background: violet;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.c4 {
+    background: skyblue;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.c5 {
+    margin: 0 auto;
+    background: lightcoral;
+    width: 50vW;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+p.circle {
+    animation: loader 0.5s linear infinite;
+    height: 100px;
+    width: 100px;
+    background: orangered;
+    border-radius: 50%;
+}
+
+p.circle2 {
+    animation: loader2 0.5s linear infinite;
+    height: 100px;
+    width: 100px;
+    background: orange;
+    border-radius: 50%;
+}
+
+p.circle3 {
+    animation: loader3 0.5s linear infinite;
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    border-radius: 50%;
+}
+
+@keyframes loader {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes loader2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes loader3 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

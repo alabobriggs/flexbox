@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+}
+
+.c {
+    display: flex;
+    background: lightpink;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+p{
+    margin: 0px;
+}
+
+
+div.circle {
+    animation: loader 0.5s linear infinite;
+    height: 100px;
+    width: 100px;
+    background: orangered;
+    border-radius: 50%;
+}
+
+div.circle2 {
+    animation: loader2 0.5s linear infinite;
+    height: 100px;
+    width: 100px;
+    background: orange;
+    border-radius: 50%;
+}
+
+div.circle3 {
+    animation: loader3 0.5s linear infinite;
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    border-radius: 50%;
+}
+
+@keyframes loader {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes loader2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes loader3 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    color: #ffffff;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.box {
+    text-align: left;
+    background: #cc0042;
+    margin: 2px;
+    flex: 1 200px;
+
+}
+div.middle {
+    text-align: left;
+    background: #b20039;
+    margin: 2px;
+}
+
+

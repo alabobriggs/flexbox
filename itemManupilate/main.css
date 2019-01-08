@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: skyblue;
+    height: 30vh;
+}
+
+
+p{
+    margin: 0px 5px 0px 5px;
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+p.circle {
+    height: 100%;
+    background: orangered;
+    border-radius: 0;
+
+}
+
+p.circle2 {
+    height: 100%;
+    background: orange;
+    border-radius: 0;
+    flex-grow: 8;
+
+}
+
+p.circle3 {
+    height: 100%;
+    background: gold;
+    border-radius: 0;
+}
